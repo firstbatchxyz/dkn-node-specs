@@ -18,6 +18,26 @@ These specs are based on a system with 16 CPUs and 64GB RAM.
 
 For those running without a GPU, we've got you covered too! Here are the specs for different CPU types:
 
+### ARM (4 CPU, 16GB RAM)
+
+| Model | CPU Usage (cores) | RAM Usage |
+|-------|-------------------|-----------|
+| NousTheta | 3.0 - 3.5 cores | 9.6 GB |
+| Phi3Medium | 3.7 - 3.8 cores | 10.4 GB |
+| Phi3Medium128k | 3.7 - 3.8 cores | 10.4 GB |
+| Phi3Mini | 3.2 - 6.1 cores | 5.6 - 11.4 GB |
+| Llama3_1_8B | 3.4 - 3.7 cores | 6.1 GB |
+
+### ARM (8 CPU, 16GB RAM)
+
+| Model | CPU Usage (cores) | RAM Usage |
+|-------|-------------------|-----------|
+| NousTheta | 6.2 - 6.3 cores | 9.6 GB |
+| Phi3Medium | 6.5 cores | 10.8 GB |
+| Phi3Medium128k | 6.5 cores | 10.8 GB |
+| Phi3Mini | 5.4 - 7.0 cores | 5.8 - 11.6 GB |
+| Llama3_1_8B | 3.4 - 4.2 cores | 6.2 GB |
+
 ### AMD (8 CPU, 16GB RAM)
 
 | Model | CPU Usage (cores) | RAM Usage |
@@ -37,16 +57,6 @@ For those running without a GPU, we've got you covered too! Here are the specs f
 | Phi3Medium128k | 2.2 - 3.3 cores | 10.3 GB |
 | Phi3Mini | 2.6 - 4.1 cores | 5.4 - 11.0 GB |
 | Llama3_1_8B | 3.7 - 3.9 cores | 11.3 GB |
-
-### ARM (8 CPU, 16GB RAM)
-
-| Model | CPU Usage (cores) | RAM Usage |
-|-------|-------------------|-----------|
-| NousTheta | 6.2 - 6.3 cores | 9.6 GB |
-| Phi3Medium | 6.5 cores | 10.8 GB |
-| Phi3Medium128k | 6.5 cores | 10.8 GB |
-| Phi3Mini | 5.4 - 7.0 cores | 5.8 - 11.6 GB |
-| Llama3_1_8B | 3.4 - 4.2 cores | 6.2 GB |
 
 ## 📝 Notes
 
