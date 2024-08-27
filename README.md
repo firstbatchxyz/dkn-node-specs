@@ -63,6 +63,7 @@ For those running without a GPU, we've got you covered too! Here are the specs f
 - CPU usage can vary significantly between tasks, especially for long context vs. multiple steps.
 - Some models may require more than the available CPU cores, which could lead to slower performance.
 - RAM usage is generally consistent but can spike for certain operations.
-- For systems with 4 CPUs and 8GB RAM, only Phi3Mini was able to run successfully.
+- **Important**: For systems with 4 CPUs and 8GB RAM, only Phi3Mini was able to run successfully.**
+- **Important**: Lower CPU count results in lower performance. Systems with fewer CPUs will process requests more slowly, especially for models that require more CPU resources than are available.
 
 Remember, these are minimum specs, and your experience may vary depending on the specific tasks and workload. Happy node running! 🎉
