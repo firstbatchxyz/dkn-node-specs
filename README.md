@@ -2,6 +2,8 @@
 
 Hello, drians! 👋 Here's a guide to help you understand the minimum specs needed for running different LLMs. We've broken it down into two main categories: GPU-enabled nodes and CPU-only nodes. Since you can run your nodes on machines both with or without GPU. 
 
+You can find the actual model names in [Available Models](https://docs.dria.co/how-to/models/) in our docs.
+
 - ## 🖥️ GPU-Enabled Nodes
 
 These specs are based on a system with 16 CPUs and 64GB RAM.
